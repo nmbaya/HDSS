@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:id="@+id/group"
+        android:background="@color/bg_dss"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_item_str"
+            android:icon="@drawable/ic_home"
+            android:title="Structure"/>
+        <item
+            android:id="@+id/nav_item_roo"
+            android:icon="@drawable/ic_peoples"
+            android:title="Room"/>
+        <item
+            android:id="@+id/nav_item_obs"
+            android:icon="@drawable/ic_households"
+            android:title="Observation"/>
+
+    </group>
+</menu>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:id="@+id/group"
+        android:background="@color/bg_dss"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_item_ind"
+            android:icon="@drawable/ic_peoples"
+            android:title="Individuals"/>
+        <item
+            android:id="@+id/nav_item_res"
+            android:icon="@drawable/ic_households"
+            android:title="Residency"/>
+        <item
+            android:id="@+id/nav_item_mem"
+            android:icon="@drawable/ic_households"
+            android:title="Membership"/>
+        <item
+            android:id="@+id/nav_item_vis"
+            android:icon="@drawable/ic_households"
+            android:title="Visitor"/>
+    </group>
+</menu>

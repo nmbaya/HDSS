@@ -1,0 +1,44 @@
+
+<RelativeLayout
+    android:id="@+id/fragment_container"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_dss"
+    android:focusableInTouchMode="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:gravity="center"
+              android:textSize="30dp"
+              android:padding="10dp"
+              android:textStyle="bold"
+             android:textColor="@color/cardview_dark_background"
+             android:text="STRUCTURES"/>
+            <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="10dp"
+            android:textColor="@color/cardview_dark_background"
+            android:text="*NOTE: To enter New Structure, tab on the column header "/>
+
+        <org.aphrc.myapplication.tableview.TableView
+            android:id="@+id/strtableview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/table_test_container">
+
+        </org.aphrc.myapplication.tableview.TableView>
+        </LinearLayout>
+
+</RelativeLayout>
+

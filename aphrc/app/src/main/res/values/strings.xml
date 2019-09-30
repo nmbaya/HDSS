@@ -1,0 +1,404 @@
+<resources>
+    <string name="app_name">APHRC</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="action_reset">Reset</string>
+    <string name="no_selection">No Selection</string>
+    <string name="done_search">Done Search</string>
+    <string name="start_search">Start search</string>
+    <string name="search">Search...</string>
+    <string name="empty_list">No Items Found</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="sort_ascending">Sort Ascending</string>
+    <string name="sort_descending">Sort Descending</string>
+    <string name="clear_sorting">Clear</string>
+    <string name="hiding_row_sample">Hiding 3. Row Sample</string>
+    <string name="showing_row_sample">Showing 3. Row Sample</string>
+    <string name="scroll_to_column_position">Scroll to 15. column position</string>
+    <string name="scroll_to_row_position">Scroll to 5. row position</string>
+    <string name="show_hide_the_column">Showing / Hiding 1. column</string>
+    <string name="table_pagination_details">Page %s, showing items %s - %s.</string>
+
+    <string name="img">In-Migration(IMG)</string>
+    <string name="ext">Out-Residence(EXT)</string>
+    <string name="ent">In-Residence(ENT)</string>
+    <string name="omg">Out-migration(OMG)</string>
+    <string name="pgo">Pregnancy Outcome(PGO)</string>
+    <string name="edu">Education Update(EDU)</string>
+    <string name="evs">Event Statuses (EVS)</string>
+    <string name="evc">Event Confirmation(EVC)</string>
+    <string name="hha">Houselhold Amenties(HHL)</string>
+    <string name="vac">Vaccination (VAC)</string>
+
+    <string name="newrec">New Record</string>
+    <string name="allrec">Allocate HRB</string>
+    <string name="delrec">Delete Record</string>
+    <string name="updrec">Edit Record</string>
+
+    <string-array name="moods">
+        <item></item>
+        <item>Happy</item>
+        <item>Sad</item>
+    </string-array>
+
+    <string-array name="gender">
+        <item></item>
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+    <string-array name="items_per_page">
+        <item>10</item>
+        <item>20</item>
+        <item>25</item>
+        <item>50</item>
+        <item>All</item>
+    </string-array>
+
+
+    <string name="record_added_successfully">Record added successfully</string>
+    <string name="record_could_not_be_added">Record couldn\'t be added</string>
+    <string name="record_updated_successfully">Record updated successfully</string>
+    <string name="record_couldnt_be_updated">Record couldn\'t be updated</string>
+    <string name="record_deleted_successfully">Record deleted successfully</string>
+    <string name="record_couldnt_be_deleted">Record couldn\'t be deleted</string>
+    <string name="select_a_record_to_edit">Select a Record to edit</string>
+    <string name="insert_update_delete_query">Room Details </string>
+    <string name="insert_update_delete_Structure">Structure Details </string>
+
+    <!-- TODO: LOGIN UPDATES -->
+
+    <string name="Reg_Details">Registration Details</string>
+    <string name="login_Details">Login Details</string>
+    <string name="hint_firstname">First Name</string>
+    <string name="hint_secondname">Second Name</string>
+    <string name="hint_username">User Name</string>
+    <string name="hint_email">Email Address </string>
+
+    <string name="text_staff">All Project Staff Members</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_confirm_password">Confirm Password</string>
+    <string name="text_login">Login</string>
+    <string name="text_register">Register</string>
+
+    <string name="error_message_fname">Please Enter First Name</string>
+    <string name="error_message_sname">Please Enter Second Name</string>
+    <string name="error_message_uname">Please Enter User Name</string>
+    <string name="error_message_email">Please Enter Valid Email</string>
+    <string name="error_message_password">Please Enter Password</string>
+    <string name="error_message_room">Invalid Room ID</string>
+
+    <string name="success_message">Registration Successful</string>
+    <string name="text_not_member">Not yet Registered? Create one</string>
+    <string name="text_already_member">Already a member? Login</string>
+    <string name="error_email_exists">Email Already Exists</string>
+    <string name="error_password_match">Password Does Not Matches</string>
+    <string name="error_valid_email_password">Wrong Email or Password</string>
+    <string name="error_Invalid_Room">Wrong Room Number</string>
+    <string name="text_hello">WELCOME,</string>
+    <string name="text_title">HDSS NAIROBI</string>
+
+
+    <!-- TODO: HRB UPDATES -->
+    <string name="hrb_Details">Household Registration Book</string>
+    <string name="hrb_CreatedAt">Date of Visit </string>
+    <string name="hrb_CreatedBy">User Name </string>
+    <string name="hrb_Name">Household Registration Book</string>
+    <string name="hrb_update">Update</string>
+    <string name="hrb_add">Save</string>
+
+    <!-- TODO: Work Allocation UPDATES -->
+    <string name="wa_Details">Work Allocation</string>
+    <string name="wa_CreatedAt">Date of Visit </string>
+    <string name="wa_CreatedBy">User Name </string>
+    <string name="wa_Round">Round Number</string>
+    <string name="wa_FieldWorker">Field Worker</string>
+    <string name="wa_HRB">Household Registration Book</string>
+    <string name="wa_StartDate">Start Date</string>
+    <string name="wa_EndDate">End Date</string>
+    <string name="wa_update">Update</string>
+    <string name="wa_add">Save</string>
+
+    <!-- TODO: OBSERVATION UPDATES -->
+    <string name="Obs_Details">Observation Details</string>
+    <string name="Obs_q1">Observation</string>
+
+    <string name="Obs_Time">Time Of Visit</string>
+    <string name="Obs_Date">Date Of Visit</string>
+    <string name="Obs_Staff">Field Interviewer</string>
+    <string name="Obs_Room">Room/Location</string>
+    <string name="Obs_RoomUsage">Room Usage</string>
+    <string name="Obs_Round">Round</string>
+    <string name="Obs_ResID">Respondent ID</string>
+    <string name="Obs_Resname">Respondent Name</string>
+    <string name="Obs_VisitNo">Number Of Visits</string>
+    <string name="Obs_Result">Result of Visit </string>
+    <string name="Obs_ResultOther">Result of visit other specify</string>
+    <string name="Obs_Comments">Observation Comments</string>
+    <string name="Obs_Obs">Observation</string>
+    <string name="Obs_ObsID">Observation ID</string>
+
+
+    <!-- TODO: ROOMS UPDATES -->
+    <string name="rm_Details">Room Details</string>
+    <string name="rm_date">Date of Visit </string>
+    <string name="rm_time">Time of Visit </string>
+    <string name="rm_staff">Field Interviewer </string>
+    <string name="rm_structure">Structure Code / Number</string>
+    <string name="rm_number">Room Number</string>
+    <string name="rm_ID">Room ID</string>
+    <string name="update">Update</string>
+    <string name="add">Save</string>
+
+    <!-- TODO: STRUCTURES UPDATES -->
+    <string name="Str_Details">Structure Details</string>
+    <string name="str_DATE">Date of Visit </string>
+    <string name="str_TIME">Time of Visit </string>
+    <string name="str_STAFF">Field Interviewer </string>
+    <string name="str_Site">Enumeration Site</string>
+    <string name="str_EA">Enumeration Area</string>
+    <string name="str_NUMID">Structure ID </string>
+    <string name="str_NUM">Structure Number</string>
+    <string name="str_BEFORE">Structure Before</string>
+    <string name="str_AFTER">Structure After</string>
+    <string name="str_hrb">Household Registration Book</string>
+    <string name="str_COM">Structure Comments</string>
+
+
+
+    <!-- TODO: In Residence Detatils  -->
+    <string name="ind_Details">Individual Details</string>
+    <string name="ind_q1">BACKGROUND</string>
+    <string name="ind_q1p1"><b>1.1:</b>	START TIME</string>
+    <string name="ind_q1p2"><b>1.2:</b>	FIELD WORKERS CODE</string>
+    <string name="ind_q1p3"><b>1.3:</b>	DATE OF INTERVIEW (DD/MM/YYYY)</string>
+    <string name="ind_q2">INDIVIDUAL CHARACTERISTICS</string>
+    <string name="ind_q1p4a"><b>1.4:</b>	Individual ID</string>
+    <string name="ind_q1p4b"><b>1.4:</b>	Name</string>
+    <string name="ind_q1p5"><b>1.5:</b>	Nick Name</string>
+    <string name="ind_q4p4a"><b>4.4A:</b>	Date of birth actual</string>
+    <string name="ind_q4p4b"><b>4.4B:</b>	Date of birth calculated</string>
+    <string name="ind_q4p5"><b>4.5:</b>	Age</string>
+    <string name="ind_q4p6"><b>4.6:</b>	Sex</string>
+    <string name="ind_q4p7a"><b>4.7A:</b>	Ethnicity</string>
+    <string name="ind_q4p7b"><b>4.7B:</b>	Other ethnicity specified</string>
+    <string name="ind_q5p28a"><b>5.28A:</b>	Date to DSA</string>
+    <string name="ind_q5p28b"><b>5.28B:</b>	Date to DSA</string>
+
+
+    <!-- TODO: Socialgroup Detatils  -->
+    <string name="sgp_Details">SocialGroup Details</string>
+    <string name="sgp_q1">1	SocialGroup</string>
+    <string name="sgp_sgp">Socialgroup Identification ID</string>
+    <string name="sgp_room">Room Identification Number</string>
+    <string name="sgp_sgpid">Socialgroup Identification Number</string>
+
+    <!-- TODO: VISITOR Detatils  -->
+    <string name="vis_Details">Visitor Details</string>
+    <string name="vis_date">Date of Interview</string>
+
+
+
+
+    <!-- TODO: Out Lookups Detatils  -->
+    <string-array name="ea">
+        <item></item>
+        <item><b>1:</b> x1</item>
+        <item><b>2:</b> q2</item>
+    </string-array>
+
+    <!-- TODO: Out Lookups Detatils  -->
+    <string-array name="yesno">
+        <item></item>
+        <item><b>1:</b> Yes</item>
+        <item><b>2:</b> No</item>
+    </string-array>
+
+    <string-array name="yesnodk">
+        <item></item>
+        <item><b>1:</b> Yes</item>
+        <item><b>2:</b> No</item>
+        <item><b>8:</b> Dont Know</item>
+    </string-array>
+
+    <string-array name="yesnonr">
+        <item></item>
+        <item><b>1:</b> Yes</item>
+        <item><b>2:</b> No</item>
+        <item><b>97:</b> Refusal</item>
+        <item><b>98:</b> Dont Know</item>
+        <item><b>99:</b> Not Applicable</item>
+    </string-array>
+
+    <string-array name="status">
+        <item></item>
+        <item><b>1:</b> 	xxxxxx</item>
+
+    </string-array>
+
+    <string-array name="religion">
+        <item></item>
+        <item><b>01:</b>	Catholic</item>
+        <item><b>02:</b>	Protestant</item>
+        <item><b>04:</b>	Pentacostal/Charismatic</item>
+        <item><b>05:</b>	Other Christian</item>
+        <item><b>06:</b>	Muslim</item>
+        <item><b>07:</b>	No Religion</item>
+        <item><b>96:</b>	Other</item>
+    </string-array>
+
+
+    <string-array name="marritalstatus">
+        <item></item>
+        <item><b>01:</b>	Married</item>
+        <item><b>02:</b>	Living with a man/woman</item>
+        <item><b>03:</b>	Widowed</item>
+        <item><b>04:</b>	Separated</item>
+        <item><b>05:</b>	Divorced</item>
+        <item><b>06:</b>	Never Married</item>
+        <item><b>07:</b>	Married to new partner</item>
+        <item><b>08:</b>	Living with new partner</item>
+    </string-array>
+
+    <string-array name="business">
+        <item></item>
+        <item><b>01:</b>	Unestablished own business</item>
+        <item><b>02:</b>	Established own business</item>
+        <item><b>03:</b>	Informal casual</item>
+        <item><b>04:</b>	Informal salaried</item>
+        <item><b>05:</b>	Formal salaried</item>
+        <item><b>06:</b>	Formal casual</item>
+        <item><b>07:</b>	Rural Agriculture</item>
+        <item><b>08:</b>	Urban Agriculture</item>
+        <item><b>96:</b>	Other</item>
+    </string-array>
+
+
+    <string-array name="reasonnotworking">
+        <item></item>
+        <item><b>01:</b>	Too old</item>
+        <item><b>02:</b>	Retired</item>
+        <item><b>03:</b>	Household responsibilities</item>
+        <item><b>04:</b>	In school</item>
+        <item><b>05:</b>	Too young</item>
+        <item><b>06:</b>	Sick/ill</item>
+        <item><b>07:</b>	Cant find work</item>
+        <item><b>08:</b>	Doesnt want</item>
+        <item><b>09:</b>	Lost job</item>
+        <item><b>10:</b>	Pregnancy</item>
+        <item><b>96:</b>	Other</item>
+    </string-array>
+
+    <string-array name="deathcause">
+        <item></item>
+        <item><b>1:</b>	Illness</item>
+        <item><b>2:</b>	Injury</item>
+        <item><b>3:</b>	Both 1 and 2</item>
+    </string-array>
+
+    <string-array name="ethinicity">
+        <item></item>
+        <item><b>1:</b>	bbbbbb</item>
+
+    </string-array>
+
+    <string-array name="province">
+        <item></item>
+        <item><b>01:</b>	Nyari</item>
+
+    </string-array>
+
+    <string-array name="rlttohhh">
+        <item></item>
+        <item><b>AUN:</b>   Aunt</item>
+        <item><b>BIL:</b>   Brother-in-law</item>
+        <item><b>BRO:</b>   Brother</item>
+        <item><b>CHD:</b>   Child</item>
+
+    </string-array>
+
+    <string-array name="respondentrltto">
+        <item></item>
+        <item><b>SLF:</b>	Self</item>
+        <item><b>SPO:</b>	Spouse</item>
+
+    </string-array>
+
+    <string-array name="changereason">
+        <item></item>
+        <item><b>1:</b> A </item>
+        <item><b>2:</b> Is it a split</item>
+    </string-array>
+
+
+    <string-array name="Village">
+        <item></item>
+        <item><b>V01:</b> 	xx1</item>
+        <item><b>V02:</b> 	xx2</item>
+
+    </string-array>
+
+
+    <string-array name="intervewresults">
+        <item></item>
+        <item><b>1:</b> Completed</item>
+        <item><b>2:</b> No competent respondent at home</item>
+        <item><b>3:</b> Entire household absent for extended period</item>
+        <item><b>4:</b> Refused</item>
+        <item><b>5:</b> Whereabouts unknown</item>
+        <item><b>6:</b> Structure owner/others refused access</item>
+        <item><b>96:</b>    Other</item>
+    </string-array>
+
+
+
+
+    <string-array name="stayduration">
+        <item></item>
+        <item><b>1:</b>	Moved to stay here</item>
+        <item><b>2:</b>	Just here temporarily</item>
+        <item><b>3:</b>	Not sure</item>
+        <item><b>9:</b>	Not Applicable</item>
+    </string-array>
+
+    <string-array name="roomusage">
+        <item></item>
+        <item><b>1:</b>  Sleeping </item>
+        <item><b>2:</b>  Sleeping  Room</item>
+
+    </string-array>
+
+    <string-array name="duration">
+        <item></item>
+        <item><b>D:</b>  DAYS</item>
+        <item><b>M:</b>  MONTHS</item>
+
+    </string-array>
+
+    <string-array name="support">
+        <item></item>
+        <item><b>1:</b>  YES SUPPORTS</item>
+
+    </string-array>
+
+
+
+
+    <string name="title_activity_eventstatus_list">EventstatusListActivity</string>
+    <string name="title_activity_residency_list">ResidencyListActivity</string>
+    <string name="title_room_list">Rooms</string>
+    <string name="title_room_detail">Room Detail</string>
+    <string name="title_structureroom_list">StructureRooms</string>
+    <string name="title_structureroom_detail">StructureRoom Detail</string>
+    <string name="title_location_list">Locations</string>
+    <string name="title_location_detail">Location Detail</string>
+
+
+</resources>

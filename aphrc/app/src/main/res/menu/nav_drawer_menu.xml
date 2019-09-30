@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+        <group
+            android:id="@+id/group"
+            android:background="@color/bg_dss"
+            android:checkableBehavior="single">
+            <item
+                android:id="@+id/nav_item_locations"
+                android:icon="@drawable/ic_home"
+                android:title="Dwelling Units"/>
+            <item
+                android:id="@+id/nav_item_Individuals"
+                android:icon="@drawable/ic_peoples"
+                android:title="Individual"/>
+            <item
+                android:id="@+id/nav_item_households"
+                android:icon="@drawable/ic_households"
+                android:title="Households"/>
+            <item
+                android:id="@+id/nav_item_forms"
+                android:icon="@drawable/ic_forms"
+                android:title="NUHDSS Forms"/>
+            <item
+                android:id="@+id/nav_item_loc_obs"
+                android:icon="@drawable/ic_observation_24dp"
+                android:title="Location Observation"/>
+            <item
+                android:id="@+id/nav_item_utilities"
+                android:icon="@drawable/ic_sync_24dp"
+                android:title="Utilities"/>
+            <item
+                android:id="@+id/nav_item_admin"
+                android:icon="@drawable/ic_admin_24dp"
+                android:title="Admin"/>
+            <item
+                android:id="@+id/nav_item_va_a5"
+                android:icon="@drawable/ic_va_24dp"
+                android:title="Verbal Autopsy Above 5"/>
+            <item
+                android:id="@+id/nav_item_va_u5"
+                android:icon="@drawable/ic_va_24dp"
+                android:title="Verbal Autopsy Under 5"/>
+
+        </group>
+</menu>

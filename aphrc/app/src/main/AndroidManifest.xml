@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.aphrc.myapplication">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:name=".Model.GlobalClass"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Fragments.Visitor.VisitorActivity"></activity>
+        <activity android:name=".Fragments.HouseholdRegistrationBook.HouseholdRegistrationBookActivity" />
+        <activity android:name=".Views.AdminActivity" />
+        <activity android:name=".Views.HouseholdsActivity" />
+        <activity android:name=".Views.IndividualsActivity" />
+        <activity android:name=".Views.DwellingUnitsActivity" />
+        <activity android:name=".Views.FormsActivity" />
+        <activity android:name=".Utilities.Synch" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Fragments.Room.RoomActivity" />
+        <activity android:name=".Fragments.Observation.ObservationActivity" />
+        <activity android:name=".Fragments.Structure.StructureActivity" />
+        <activity android:name=".Fragments.Individual.IndividualActivity" />
+        <activity android:name=".Fragments.Residency.ResidencyActivity" />
+        <activity android:name=".Fragments.SocialGroup.SocialgroupActivity" />
+        <activity android:name=".Fragments.Membership.MembershipActivity" />
+        <activity android:name=".Fragments.Round.RoundActivity" />
+        <activity android:name=".Fragments.Staff.LoginActivity" />
+        <activity android:name=".Fragments.Staff.RegisterActivity" />
+        <activity android:name=".LocationObservation.tableview.popup.RowHeaderLongPressPopup" />
+        <activity android:name=".Masterdetail.ItemsListActivity" />
+        <activity android:name=".Masterdetail.ItemDetailActivity" />
+    </application>
+
+</manifest>

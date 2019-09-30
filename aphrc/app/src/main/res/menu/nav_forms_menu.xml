@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:id="@+id/individual"
+        android:background="@color/bg_dss"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_item_img"
+            android:icon="@drawable/ic_img_black_24dp"
+            android:title="IN-Migration"/>
+        <item
+            android:id="@+id/nav_item_omg"
+            android:icon="@drawable/ic_outmigration_black_24dp"
+            android:title="Out-Migration"/>
+        <item
+            android:id="@+id/nav_item_ent"
+            android:icon="@drawable/ic_households"
+            android:title="In-Residency"/>
+        <item
+            android:id="@+id/nav_item_ext"
+            android:icon="@drawable/ic_forms"
+            android:title="Out-Residency"/>
+        <item
+            android:id="@+id/nav_item_loc_evs"
+            android:icon="@drawable/ic_forms"
+            android:title="Event Status"/>
+        <item
+            android:id="@+id/nav_item_edu"
+            android:icon="@drawable/ic_forms"
+            android:title="Education Status"/>
+        <item
+            android:id="@+id/nav_item_pgo"
+            android:icon="@drawable/ic_peoples"
+            android:title="Pregnancy Outcome"/>
+        <item
+            android:id="@+id/nav_item_chd"
+            android:title="Child"/>
+        <item
+            android:id="@+id/nav_item_vac"
+            android:title="Vaccination"/>
+
+    </group>
+
+    <group
+        android:id="@+id/household"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_item_evc"
+            android:icon="@drawable/ic_home"
+            android:title="Event Confirmation"/>
+        <item
+            android:id="@+id/nav_item_hha"
+            android:icon="@drawable/ic_peoples"
+            android:title="Household Amenities"/>
+    </group>
+</menu>

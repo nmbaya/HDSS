@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SearchableSpinner">
+        <!-- View attributes -->
+        <attr name="RevealViewBackgroundColor" format="color" />
+        <attr name="StartSearchTintColor" format="color" />
+        <attr name="SearchViewBackgroundColor" format="color" />
+        <attr name="SearchViewTextColor" format="color" />
+        <attr name="DoneSearchTintColor" format="color" />
+        <attr name="AnimDuration" format="integer"/>
+        <attr name="ShowBorders" format="boolean"/>
+        <attr name="BordersSize" format="dimension"/>
+        <attr name="BoarderColor" format="color"/>
+        <attr name="SpinnerExpandHeight" format="dimension"/>
+        <attr name="KeepLastSearch" format="boolean"/>
+        <attr name="RevealEmptyText" format="string"/>
+        <attr name="SearchHintText" format="string"/>
+        <attr name="NoItemsFoundText" format="string"/>
+        <attr name="ItemsDivider" format="reference"/>
+        <attr name="DividerHeight" format="dimension"/>
+    </declare-styleable>
+
+    <declare-styleable name="TableView">
+        <attr name="row_header_width" format="dimension"/>
+        <attr name="column_header_height" format="dimension"/>
+        <attr name="selected_color" format="color"/>
+        <attr name="unselected_color" format="color"/>
+        <attr name="shadow_color" format="color"/>
+        <attr name="separator_color" format="color"/>
+        <attr name="show_vertical_separator" format="boolean"/>
+        <attr name="show_horizontal_separator" format="boolean"/>
+    </declare-styleable>
+</resources>
